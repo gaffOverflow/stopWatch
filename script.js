@@ -46,9 +46,8 @@ function updateTime() {
   sec = Math.floor((elapsedTime / 1000) % 60);
   min = Math.floor((elapsedTime / (1000 * 60)) % 60);
   hours = Math.floor((elapsedTime / (1000 * 60 * 60)) % 60);
-
   milsec = pad(milsec);
-  sec = pad(sec);
+  sec = pad(sec); 
   min = pad(min);
   hours = pad(hours);
 
